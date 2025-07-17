@@ -12053,7 +12053,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #02aab0;
+  background: #1e3c72;
 }
 
 h1, .h1 {
@@ -12091,22 +12091,22 @@ a:hover {
 }
 
 .text-color-main {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #2a5298;
+  -webkit-text-fill-color: #2a5298;
 }
 
 @supports (background-clip: text) {
   .text-color-main {
     -webkit-text-fill-color: transparent;
     color: #0000;
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     -webkit-background-clip: text;
   }
 }
 
 @media (width <= 37.5em) {
   .text-color-main {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #2a5298;
     background-image: none;
   }
 }
@@ -12138,26 +12138,26 @@ a:hover {
 }
 
 .cta-btn--hero {
-  color: #00cdac;
-  -webkit-text-fill-color: #00cdac;
+  color: #2a5298;
+  -webkit-text-fill-color: #2a5298;
   -webkit-border-image-slice: 1;
   border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%) 1;
+  border-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) 1;
 }
 
 @supports (background-clip: text) {
   .cta-btn--hero {
     -webkit-text-fill-color: transparent;
     color: #0000;
-    background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+    background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     -webkit-background-clip: text;
   }
 }
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   .cta-btn--hero {
-    color: #00cdac !important;
+    color: #2a5298 !important;
   }
 
   .cta-btn--hero:hover {
@@ -12167,14 +12167,14 @@ a:hover {
 
 @media (width <= 37.5em) {
   .cta-btn--hero {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #2a5298;
     background-image: none;
-    border: 2px solid #00cdac;
+    border: 2px solid #2a5298;
   }
 }
 
 .cta-btn--hero:after {
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 
 @media (width <= 37.5em) {
@@ -12190,7 +12190,7 @@ a:hover {
 
 @media (width <= 37.5em) {
   .cta-btn--hero:hover {
-    -webkit-text-fill-color: #00cdac;
+    -webkit-text-fill-color: #2a5298;
   }
 }
 
@@ -12208,7 +12208,7 @@ a:hover {
 }
 
 .cta-btn--resume:hover {
-  color: #00cdac;
+  color: #2a5298;
   text-decoration: none;
 }
 
@@ -12246,7 +12246,7 @@ a:hover {
 }
 
 .footer__text a:hover, .footer__text a:active {
-  color: #02aab0;
+  color: #1e3c72;
   box-shadow: 0 1.5rem 4rem #00000026;
 }
 
@@ -12304,8 +12304,8 @@ section {
 #about {
   color: #fff;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  background-color: #02aab0;
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-color: #1e3c72;
+  background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   border-top: 0;
   height: 100%;
   padding-bottom: 10%;
@@ -12357,23 +12357,24 @@ section {
 }
 
 #about .about-wrapper__info-text {
-  text-align: left;
+  text-align: justify;
+  hyphens: auto;
 }
 
 @media (width <= 56.25em) {
   #about .about-wrapper__info-text {
-    text-align: left;
+    text-align: justify;
   }
 }
 
 @media (width <= 48em) {
   #about .about-wrapper__info-text {
-    text-align: center;
+    text-align: justify;
   }
 }
 
 #about .about-wrapper__info-text--important {
-  background: #00c8a8;
+  background: #295094;
   margin: .3rem 0;
   padding: 0 .3rem;
   font-style: italic;
@@ -12394,7 +12395,7 @@ section {
 #contact {
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   color: #fff;
-  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
+  background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
   margin-top: -10rem;
   margin-bottom: -1px;
   padding: 15rem 0 10rem;
@@ -12537,7 +12538,8 @@ section {
 }
 
 #projects .project-wrapper__text {
-  text-align: left;
+  text-align: justify;
+  hyphens: auto;
 }
 
 @media (width <= 37.5em) {
@@ -12565,7 +12567,7 @@ section {
 }
 
 #projects .project-wrapper__text p > a {
-  color: #00cdac;
+  color: #2a5298;
 }
 
 #projects .project-wrapper__image {
